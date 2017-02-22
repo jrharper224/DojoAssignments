@@ -1,0 +1,13 @@
+git init
+git add .
+git status
+git commit -m
+git log
+git diff
+git revert
+git reset
+git push
+git pull
+
+mkdir
+cd
