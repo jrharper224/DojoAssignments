@@ -1,0 +1,223 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  width: 970px;
+  border: 5px solid black;
+}
+
+#header{
+  background-color: #1A1A1A;
+  width: 970px;
+  height: 90px;
+  color: white;
+}
+  #header img{
+    vertical-align: top;
+  }
+
+    #header p {
+      text-align: right;
+      display: inline-block;
+      vertical-align: text-top;
+      width: 700px;
+      margin-top: 25px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif
+    }
+
+#menu{
+  background: linear-gradient(#525252, black);
+  height: 60px;
+  width: 970px;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+  #menu ul{
+    display: inline-block;
+    font-weight: bold;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  #home{
+    display: inline-block;
+    border-right: 1px solid #393939;
+    width: 100px;
+    height: 25px;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+  }
+
+  .list{
+    display: inline-block;
+    border-right: 1px solid #393939;
+    width: 120px;
+    height: 25px;
+    vertical-align: top;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -4px;
+    color: #8D9496;
+  }
+    .list span{
+      font-size: 10px;
+      margin-left: 5px;
+
+    }
+
+  #contact{
+    display: inline-block;
+    border-right: 1px solid #393939;
+    width: 300px;
+    height: 40px;
+    vertical-align: top;
+    text-align: left;
+    padding-top: 10px;
+    margin-left: 15px;
+    color: #8D9496;
+  }
+
+  #main_pic{
+    margin-top: -18px;
+    width: 970px;
+  }
+
+#middle{
+  height: 150px;
+  width: 970px;
+  background-color: #1A1A1A;
+  border-top: 8px solid #313131;
+  margin-top: -4px;
+}
+
+  .about{
+    display: inline-block;
+    height: 150px;
+    width: 235px;
+    vertical-align: top;
+    text-align: left;
+  }
+    .about img{
+      margin-top: 30px;
+    }
+
+    .about h3{
+      color: #EC7525;
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 40px;
+      height: auto;
+    }
+
+    .about p{
+      display: inline-block;
+      color: white;
+      width: 139px;
+      margin-left: 49px;
+    }
+
+  #info{
+    height: 150px;
+    width: 970px;
+    /*background-color: black;*/
+    background: repeating-linear-gradient(
+      -45deg,
+      #050505,
+      #050505 3px,
+      #1C1C1C 1px,
+      #1C1C1C 4px);
+      )
+  }
+    #info h2{
+      height: 25px;
+      width: 675px;
+      margin-left: 25px;
+      color: white;
+      padding-top: 30px;
+      display: inline-block;
+    }
+
+    #info p{
+      width: 600px;
+      height: 85px;
+      color: white;
+      margin-left: 25px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    #info button{
+      height: 40px;
+      width: 90px;
+      display: inline-block;
+      background-color: #F1944E;
+      color: white;
+      border-radius: 5px;
+      margin-left: 150px;
+      vertical-align: top;
+      border: none;
+    }
+
+#bottom{
+    background-color: #1A1A1A;
+    width: 970px;
+    height: 400px;
+}
+  #portfolio{
+    width: 930px;
+    height: 30px;
+    padding: 20px;
+
+  }
+    #portfolio h3{
+      width: 700px;
+      color: white;
+      display: inline-block;
+    }
+
+    #portfolio p{
+      color: #EC7525;
+      display: inline-block;
+      width: 150px;
+    }
+
+  .shortcode{
+    display: inline-block;
+    width: 210px;
+    height: 300px;
+    margin-left: 20px;
+    text-align: center;
+    vertical-align: top;
+  }
+
+    .shortcode img{
+      width: 200px;
+      border: 5px solid gray;
+    }
+
+    .shortcode h4{
+      color: #EC7525;
+      text-align: left;
+      margin-top: 15px;
+    }
+
+    .shortcode p{
+      color: white;
+      text-align: justify;
+      margin-top: 15px;
+    }
+
+#top{
+  color: gray;
+  margin-top: 10px;
+  text-align: right;
+  font-size: 10px;
+  padding-right: 30px;
+}

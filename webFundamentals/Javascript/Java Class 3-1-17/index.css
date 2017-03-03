@@ -1,0 +1,46 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+div{
+  height: 250px;
+  background-color: lightblue;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  text-align: center;
+  width: 970px;
+}
+
+h1{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+p{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+button{
+  margin-bottom: 15px;
+
+}
+
+img{
+  height: 100px;
+  display: block;
+  margin-left: 448px;
+}
+
+#blue{
+  color: blue;
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+#bigger{
+  height: 300px;
+}

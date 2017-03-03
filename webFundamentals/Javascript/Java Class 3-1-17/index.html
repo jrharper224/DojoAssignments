@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My JQuery basics</title>
+    <link rel = "stylesheet" type = "text/css" href = "index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+    </script>
+  </head>
+
+  <body>
+    <div> <h1> .class </h1>
+      <p> Click the button to pop up a message.</p>
+      <button id = "click">Click Me!</button>
+      <script>
+        $("#click").click(function() {
+          alert( "Thanks for clicking the button!")
+        })
+      </script>
+    </div>
+
+    <div> <h1> .hide </h1>
+      <p id = "hide"> Click the button to hide this paragraph </p>
+      <button id = "b2"> Click Me!</button>
+      <script>
+        $( "#b2").click(function() {
+          $( "#hide").hide();
+          })
+      </script>
+    </div>
+
+    <div> <h1> .show </h1>
+      <p> Click the button to show a new message!</p>
+      <button id = "b3"> Click Me!</button>
+      <p style = "display: none" id = "show">Thanks for clicking the button!</p>
+      <script>
+        $( "#b3").click(function(){
+          $( "#show").show()
+        })
+      </script>
+    </div>
+
+    <div><h1> .toggle </h1>
+      <p> Click the button to change the message below!</p>
+      <button id = "b4"> Click Me!</button>
+      <p class = "toggle">Dallas</p>
+      <p style = "display: none" class = "toggle">Texas</p>
+      <script>
+        $("#b4").click(function(){
+          $(".toggle").toggle();
+        })
+      </script>
+    </div>
+
+    <div><h1> .slideDown </h1>
+      <p> Click the button to see the picture!</p>
+      <button id ="Down"> Click Me!</button>
+      <img src = "Harpers.04.jpg" alt = "picture of dog" id = "dog" style = "display: none">
+      <script>
+        $ ("#Down").click(function(){
+              $ ("#dog").slideDown( "slow");
+        })
+      </script>
+    </div>
+
+    <div><h1> .slideUp </h1>
+      <p> Click the button to hide the picture!</p>
+      <button id = "up"> Click Me!</button>
+      <img src = "J_10_month.jpg" alt = "picture of baby" id = "baby">
+      <script>
+        $("#up").click(function(){
+          $("#baby").slideUp("slow");
+        })
+      </script>
+    </div>
+
+    <div><h1> .slideToggle </h1>
+      <p> Click the button to show and hide the picture!</p>
+      <button id = "slide"> Click Me!</button>
+      <img src = "molly_j.jpg" alt = "picture of baby" id = "molly">
+      <script>
+        $("#slide").click(function(){
+          $("#molly").slideToggle("slow");
+        })
+      </script>
+    </div>
+
+    <div><h1> .fadeIn </h1>
+      <p> Click the button to show the picture!</p>
+      <button id = "fadein"> Click Me!</button>
+      <img src = "mollygrad.jpg" alt = "picture of a dog in a hat" id = "grad" style = "display: none">
+      <script>
+        $("#fadein").click(function(){
+          $("#grad").fadeIn("100000");
+        })
+      </script>
+    </div>
+
+    <div><h1> .fadeOut </h1>
+      <p> Click the button to hide the picture!</p>
+      <button id = "fadeout"> Click Me!</button>
+      <img src = "stars1.jpg" alt = "babe and dad" id = "stars">
+      <script>
+        $("#fadeout").click(function(){
+          $("#stars").fadeOut("100000")
+        })
+      </script>
+    </div>
+
+    <div><h1> .addClass </h1>
+      <p> Click the button to change the color of the text below!</p>
+      <button id = "addclass"> Click Me!</button>
+      <p = id = "blue">This text has an id of blue, when you click, the class of yellow will also be added</p>
+      <script>
+      $("#addclass").click(function(){
+        $("#blue").addClass("yellow");
+      })
+      </script>
+    </div>
+
+    <div><h1> .before </h1>
+      <p> Click the button to display a message next to this button </p>
+      <button id = "before"> Click Me!</button>
+      <p id = "first">This shows how the before function works</p>
+      <script>
+        $("#before").click(function(){
+          $("#first").before( "Hello!")
+        })
+      </script>
+    </div>
+
+    <div><h1> .after </h1>
+      <p> Click the button to display a message after the text below </p>
+      <button id = "after"> Click Me!</button>
+      <p id = "second">This shows how the after function works</p>
+        <script>
+          $("#after").click(function(){
+            $("#second").after( "Good Bye!")
+          })
+        </script>
+      </div>
+
+    <div><h1> .append </h1>
+      <p> Click the button to display a message after the text below </p>
+      <button id = "append"> Click Me!</button>
+      <p = id = "weather">The weather outside is</p>
+      <script>
+        $("#append").click(function(){
+          $("#weather").append( " sunny!")
+      })
+      </script>
+    </div>
+    <div><h1> .html </h1>
+      <p id = "p1"> Click the button to change this sentence </p>
+      <button id = "html"> Click Me!</button>
+      <script>
+        $("#html").click(function(){
+          $("#p1").html("You changed the text to the color red")
+          $("#p1")
+          .css( "color", "red")
+        })
+      </script>
+    </div>
+
+    <div id = "bigger"><h1> .attr </h1>
+      <p> Click the button to see the dog's name</p>
+      <button id = "attr"> Click Me!</button>
+      <img src = "Harpers.04.jpg" alt = "Molly" id = "dog2">
+      <p id = "dogname"></p>
+        <script>
+          $("#attr").click(function(){
+            $("#dogname").text( $('#dog2').attr("alt"))
+          })
+        </script>
+    </div>
+
+    <div><h1> .val </h1>
+      <p> Below is an examplt of what val does.</p>
+      <input type="text" value="some text">
+    <p id = "textbox"></p>
+
+    <script>
+    $( "input" )
+      .keyup(function() {
+        var value = $( this ).val();
+        $( "#textbox" ).text( value );
+      })
+      .keyup();
+    </script>
+  </div>
+
+    <div><h1> .text </h1>
+      <p> .text will display all text in an area without any stylings.</p>
+      <p id = "example"><b>This sentence is in bold here, but .text will strip out just the words and display them below.</b></p>
+      <p id = "text"><p>
+      <script>
+       var str =  $("#example").text();
+        $("#text").html(str);
+      </script>
+    </div>
+
+    <div><h1> .data </h1>
+      <p> .data holds data defined in your html and then will display it when you need it.</p>
+    </div>
+  </body
+</html>

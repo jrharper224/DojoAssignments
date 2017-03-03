@@ -1,0 +1,236 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#top{
+  width: 970px;
+  height: auto;
+  background-color: mediumblue;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+  #logo{
+    display: inline-block;
+    margin-right: 245px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+    #logo img{
+      width: 323px;
+      height: 91px;
+    }
+
+  #searcharea{
+    width: 323px;
+    height: 91px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+
+  }
+    #text{
+      height: 21px;
+      }
+
+      #left{
+        text-align: right;
+        width: 211px;
+        border-right: 1px solid black;
+        color: white;
+        display: inline-block;
+        padding-right: 5px;
+      }
+
+      #right{
+        text-align: left;
+        width: 100px;
+        display: inline-block;
+
+      }
+      .yellow{
+        color: yellow;
+        text-decoration: underline;
+      }
+
+    #area{
+      border-radius: 10px;
+      background-color: dimgray;
+      width: 303px;
+      height: 60px;
+      padding-bottom: -10px;
+      align-items: center;
+      padding-top: 10px;
+      padding-left: 20px;
+    }
+
+      #search{
+        border: 2px solid lightgray;
+        color: lightgray;
+        background-color: white;
+        height: 35px;
+        text-align: center;
+        width: 200px;
+        padding-top: 10px;
+        display: inline-block;
+      }
+
+      #go{
+        height: 20px;
+        width: 25px;
+        color: white;
+        background-color: royalblue;
+        border: 3px solid lightgray;
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+        margin-left: 10px;
+      }
+
+    #header{
+      width: 800px;
+      height: 50px;
+      background-color: navy;
+      margin-left: 70px;
+      margin-top: 30px;
+      color: white;
+      text-align: center;
+      }
+
+      #header ul{
+        list-style-type: none;
+      }
+
+      #header ul li{
+        display: inline-block;
+        margin-right: 20px;
+        margin-top: 10px;
+      }
+
+    #list{
+      margin-left: 30px;
+      width: 266px;
+      margin-top: 25px;
+      text-align: center;
+      font-size: 20px;
+      line-height: 30px;
+      display: inline-block;
+      vertical-align: top;
+
+    }
+
+      #list ul{
+        list-style-position: inside;
+      }
+
+      #list ul li{
+        color: white;
+        text-decoration: underline;
+        list-style: square;
+        list-style-position: inside;
+      }
+
+    #info{
+      width: 600px;
+      height: auto;
+      display: inline-block;
+      margin-top: 25px;
+      color: white;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+      #info ul li{
+        color: yellow;
+        font-weight: bold;
+        list-style: none;
+        line-height: 40px;
+        font-size: 25px;
+      }
+
+#Middle{
+  width: 970px;
+  height: auto;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+
+  #start{
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 450px;
+    height: 200px;
+    border-top: 5px solid cornflowerblue;
+    text-align: center;
+    padding-right: 50px;
+    display: inline-block;
+    vertical-align: top;
+  }
+    #start ul{
+      list-style-position: inside;
+    }
+    #start ul li{
+      text-decoration: underline;
+      list-style: square;
+      list-style-position: inside;
+      color: cornflowerblue;
+    }
+
+    #apps{
+      margin-left: 30px;
+      margin-top: 5px;
+      width: 400px;
+      height: 200px;
+      border-top: 5px solid cornflowerblue;
+      text-align: center;
+      display: inline-block;
+    }
+    #apps ul{
+      list-style-position: inside;
+      list-style:
+    }
+    #apps ul li{
+      text-decoration: underline;
+      list-style: square;
+      list-style-position: inside;
+      color: cornflowerblue;
+    }
+
+  #Bottom{
+    background-color: mediumblue;
+    height: 100px;
+    width: 970px;
+    margin-left: 10px;
+    margin-top: 10px;
+    }
+
+      .footer{
+        color: lightblue;
+        font-size: 20px;display: inline-block;
+      }
+
+      #help{
+        width: 300px;
+        text-align: right;
+        margin-left: 70px;
+        margin-right: 40px;
+        padding-top: 50px;
+      }
+      #diversity{
+        width: auto;
+        text-align: center;
+      }
+
+      #bugs{
+        width: auto;
+        text-align: center;
+        margin-left: 50px;
+      }
+
+      #copyright{
+        width: auto;
+        text-align: center;
+        color: lightblue;
+      }

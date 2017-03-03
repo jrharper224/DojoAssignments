@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Can I have the time?</title>
+    <meta charset="utf-8">
+    <script>
+
+    var hour = 7;
+    var minute = 15;
+    var period = "PM";
+
+    if( minute > 30){
+
+        if(period == "AM"){
+
+          console.log("It's almost", hour + 1, "in the morning")
+        }
+        else{
+          console.log("It's almost", hour + 1, "in the evening" )
+        }
+    }
+    else {
+      if(period == "AM"){
+        console.log("It's just after", hour, "in the morning")
+      }
+      else {
+        console.log("It's just after", hour, "in the evening")
+      }
+    }
+
+
+
+
+    </script>
+  </head>
+  <body>Telling Time
+  </body>
+</html>

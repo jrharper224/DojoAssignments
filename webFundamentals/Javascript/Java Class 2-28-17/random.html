@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+
+    function random (x){
+      var value = 0
+      var coins
+      var attempt = 0
+
+
+      if (x > 0) {
+
+        value = Math.floor(Math.random() * 100)
+        coins = Math.floor(Math.random() * 50)
+        attempt = Math.floor(Math.random() * 100)
+
+        if (value == attempt) {
+
+            x = x + (coins * 2)
+            console.log (x)
+        }
+        else {
+
+        }
+
+      }
+      else {
+        console.log(x)
+      }
+    }
+
+random (10)
+
+</script>
+  </head>
+
+</html>
