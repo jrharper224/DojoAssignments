@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Binary Sory</title>
+
+<script>
+  function(binary_sory([], n){
+    var len = arr.length-1;
+    var index = Math.trunc(len/2);
+    var temp = arr[index];
+    var count = 0;
+
+    While( n != temp && count <= Math.trunc(len/2)){
+      if( n > temp );{
+      index = Math.trunc(index/2)
+    }
+      else {
+        if( n < temp){
+          index = Math.trunc(index*1.5)
+        }
+
+      }
+      if(index >= len){
+        temp = arr[index]
+        count++
+      }
+      else{
+        break
+      }
+      if( n== arr[len]){
+        temp = arr[len]
+      }
+      if( n!=temp){
+        temp = "does not exist"
+      }
+      return temp
+    }
+  })
+</script>
+
+  </head>
+  <body>
+Given an array and a number, check if the number is in the array.
+
+
+  </body>
+</html>

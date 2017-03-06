@@ -1,0 +1,46 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+table{
+  width: 970px;
+  margin-bottom: 55px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+thead th{
+  margin-top: 25px;
+  width: 70px;
+  }
+
+label{
+  font-weight: bold;
+}
+
+#first_name{
+  margin-left: 30px;
+}
+
+#last_name{
+  margin-left: 32px;
+}
+
+#email{
+  margin-left: 6px;
+}
+
+#contact{
+  margin-left: 40px;
+}
+
+#submit{
+  height: 35px;
+  width: 70px;
+  background-color: lightgreen;
+  font-weight: bold;
+  margin-left: 115px;
+  margin-top: 15px;
+}

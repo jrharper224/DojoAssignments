@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Disapearing Photos</title>
+    <link rel = "stylesheet" type = "text/css" href = "ninja.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+    </script>
+
+  </head>
+  <body>
+    <h1> jQuery - Assignment 2 - Disappearing Photos</h1>
+    <p>Click on the image to make it disapear</p>
+
+    <img id = "basket" src = "J_first_basket.jpg" alt = "J's first easter basket">
+    <img id = "fourmonth" src = "J_4_month.jpg" alt = "J's 4 month picture">
+    <img id = "fivemonth" src = "J_5_month.jpg" alt = "J's 5 month picture">
+    <img id = "solids" src = "J_first_solids.jpg" alt = "J's first attempt with solid food">
+    <img id = "eightmonth" src = "J_8_month.jpg" alt = "J's 8 month picture">
+    <img id = "ninemonth" src = "J_9_month.jpg" alt = "J's 9 month picture">
+    <img id = "tenmonth" src = "J_10_month.jpg" alt = "J's 10 month picture">
+    <img id = "elevenmonth" src = "J_11_month.jpg" alt = "J's 11 month picture">
+
+    <button>Restore</button>
+
+    <script>
+      $( "#basket").click(function() {
+        $( "#basket").hide();
+        })
+      $( "#fourmonth").click(function() {
+        $( "#fourmonth").hide();
+          })
+      $( "#fivemonth").click(function() {
+        $( "#fivemonth").hide();
+        })
+      $( "#solids").click(function() {
+        $( "#solids").hide();
+        })
+      $( "#eightmonth").click(function() {
+        $( "#eightmonth").hide();
+        })
+      $( "#ninemonth").click(function() {
+        $( "#ninemonth").hide();
+        })
+      $( "#tenmonth").click(function() {
+        $( "#tenmonth").hide();
+        })
+      $( "#elevenmonth").click(function() {
+        $( "#elevenmonth").hide();
+        })
+        $( "button").click(function(){
+          $( "img").show()
+        })
+    </script>
+  </body>
+</html>
